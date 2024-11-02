@@ -1,0 +1,107 @@
+
+.ContactForm input{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+
+}
+
+.ContactForm{
+    margin-top: 10px;
+}
+
+.ContactWrapper{
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: teal;
+    padding-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ContactImage img{
+    width: 250px;
+    margin-top: -20px;
+    
+}
+
+.fullScreen {
+    background-color: teal; 
+    height: 100vh; 
+  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+}
+
+.contactBtn button{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+
+.contactBtn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactBtn button:hover{
+    color: black;
+    background-color: wheat;
+}
+
+
+@media screen and (max-width:600px) {
+    .ContactForm input{
+        width: 55%;
+        height: 15px;
+        padding: 15px;
+        margin-left: 0px;
+
+    }
+    
+    .ContactWrapper{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContactImage img{
+        width: 50%;
+        margin-top: -330px;
+        margin-left: 130px;
+    }
+
+    .ContactForm{
+        margin-left: -35px;
+       
+    }
+
+    .contactBtn{
+        justify-content: flex-start;
+    }
+}

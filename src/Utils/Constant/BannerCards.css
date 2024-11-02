@@ -1,0 +1,58 @@
+ .BannerWrapper{
+    display: flex;
+    gap: 70px;
+    width: 560px;
+    height: 250px;
+    border-radius: 5px ;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    background-color: #B2E0D9;
+}
+
+.ContentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BannerWrapper img{
+    width: 230px;
+}
+
+.flex{
+    display: flex;
+    gap: 150px;
+
+}
+
+.BannerWrapper h6{
+    font-size: 1.2em;
+}
+ 
+ 
+@media screen and (max-width:600px) {
+    .BannerWrapper{
+        /* width: 290px; */
+        flex-wrap: wrap;
+        height: 360px;
+        width: 80%;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .BannerWrapper img{
+        margin-top: -90px;
+        width: 88%;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    }
+    
+}

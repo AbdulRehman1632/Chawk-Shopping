@@ -1,0 +1,46 @@
+.FImageWrapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.FeaturedInline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.FeaturedHeading {
+  margin-left: 20px;
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: 3px solid rgb(173, 173, 136);
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .FeaturedHeading {
+    margin-top: 20px;
+  }
+
+  .FS ul.slick-dots {
+    margin-bottom: -20px !important;
+  }
+
+  .slick-slider.slick-initialized {
+    margin: 0 auto !important;
+  }
+}

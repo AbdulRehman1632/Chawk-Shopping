@@ -1,0 +1,78 @@
+.slider-container {
+    max-width: 95%; /* Ensures the slider doesn't overflow */
+    margin: 0 auto; /* Center the slider */
+    padding: 20px; /* Add some space around */
+  }
+  
+  
+  .slick-slide {
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    background-color: #838282;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .slick-prev:hover ,.slick-next:hover{
+    background-color: black;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: white; 
+    font-size: 20px;
+  }
+
+  
+ 
+  .slick-prev:focus, .slick-next:focus {
+    outline: none;
+    background-color: gray; 
+  }
+
+  .slick-prev:focus:hover, .slick-next:focus:hover {
+    outline: none;
+    background-color: black; 
+  }
+
+  .ArrivalHeading{
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+  }
+
+  .bd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+  }
+
+  
+.bg .background {
+    transition: transform 0.4s ease; 
+  }
+  
+  .bg:hover .background {
+    transform: scale(0.9);
+  }
+
+
+  @media screen and (max-width:600px){
+    ul.slick-dots {
+        margin-bottom: -70px;
+    }
+
+    .slick-slider.slick-initialized {
+      margin: 0 auto !important;
+  }
+    
+  }
